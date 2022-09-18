@@ -148,10 +148,10 @@ body {
 }
 
 .services .card {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* ORANGE LINE IN CONTENT */
 .line {
