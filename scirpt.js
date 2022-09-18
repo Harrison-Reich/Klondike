@@ -1,3 +1,4 @@
+// carousel button functionality
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach(button => {
