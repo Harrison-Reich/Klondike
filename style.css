@@ -180,3 +180,28 @@ body {
     color: white;
     background: #1B4298;
 }
+
+.footer{
+    text-align: center;
+}
+
+.footer .contact {
+    background-color: orange;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer .locations {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .bottom-text {
+    background-color:#333;
+    color: white;
+}
+
+.footer .bottom-text .socials {
+    text-decoration: none;
+}
