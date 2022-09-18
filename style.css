@@ -219,6 +219,7 @@ text-align: center;
 .footer .column-2 {
     width: 100%;
 }
+
 .footer .column-2 .locations {
     display: flex;
     flex-direction: column;
