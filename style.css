@@ -147,6 +147,18 @@ body {
     background-color: #777;
 }
 
+.services-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-title p {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .services .card {
     display: flex;
     flex-direction: column;
@@ -182,7 +194,8 @@ body {
 }
 
 .footer{
-    text-align: center;
+text-align: center;
+
 }
 
 .footer .contact {
@@ -190,9 +203,31 @@ body {
     padding-bottom: 1rem;
 }
 
-.footer .locations {
+.footer .three-column {
+    background-color: #1B4298;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .column-1 {
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+}
+
+.footer .column-2 {
+    width: 100%;
+}
+.footer .column-2 .locations {
     display: flex;
     flex-direction: column;
+}
+
+.footer .column-3 {
+    width: 100%;
+    height: 500px;
+    background-color: orange;
 }
 
 .footer .bottom-text {
@@ -210,4 +245,5 @@ body {
 
 .footer .socials a{
     text-decoration: none;
+    color: white;
 }
