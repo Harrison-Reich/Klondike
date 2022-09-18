@@ -186,8 +186,6 @@ body {
 }
 
 .footer .contact {
-    background-color: orange;
-    color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -200,8 +198,16 @@ body {
 .footer .bottom-text {
     background-color:#333;
     color: white;
+    padding-top: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.footer .bottom-text .socials {
+.footer .socials {
+    padding-bottom: 1rem;
+}
+
+.footer .socials a{
     text-decoration: none;
 }
