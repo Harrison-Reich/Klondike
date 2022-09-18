@@ -111,14 +111,14 @@ body {
     padding-right: 1rem;
 }
 
-.grey-banner a {
+.grey-banner h3 {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.grey-banner a:hover {
+.grey-banner h3:hover {
     background-color: #555;
 }
 
@@ -150,7 +150,6 @@ body {
 .services .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 /* ORANGE LINE IN CONTENT */
@@ -180,5 +179,4 @@ body {
     text-align: center;
     color: white;
     background: #1B4298;
-
 }
