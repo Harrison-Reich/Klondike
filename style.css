@@ -159,7 +159,13 @@ body {
     position: relative;
     background: #f1f1f1f1;
 }
-  
+
+.slideshow-container-title {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 1px;
+}
+
   /* Slides */
 .mySlides {
     display: none;
@@ -216,7 +222,7 @@ body {
   
   /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: green;
 }
   
   /* Add an italic font style to all quotes */
@@ -224,6 +230,10 @@ q {font-style: italic;}
   
   /* Add a blue color to the author */
 .author {color: cornflowerblue;}
+
+.faq-title {
+    text-align: center;
+}
 
 .accordion {
     background-color: #eee;
