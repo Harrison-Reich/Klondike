@@ -114,8 +114,6 @@ body {
 .grey-banner h3 {
     text-decoration: none;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .grey-banner h3:hover {
@@ -126,7 +124,6 @@ body {
 .services {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
 }
 
 .card {
